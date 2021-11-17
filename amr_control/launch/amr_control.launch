@@ -1,0 +1,16 @@
+<launch>
+  
+  <arg name="motor_port_1" default="/dev/ttyUSB1" />
+  <arg name="motor_port_2" default="/dev/ttyUSB3" />
+  <arg name="motor_port_3" default="/dev/ttyUSB5" />
+  <arg name="motor_port_4" default="/dev/ttyUSB7" />
+
+  <node name="turtlesim"  pkg="turtlesim" type="turtlesim_node"/> 
+  <node name="amr_driver" pkg="amr_control" type="ros_control.py" respawn="false" output="screen">
+    <param name="motor_port_1" value="$(arg motor_port_1)" />
+    <param name="motor_port_2" value="$(arg motor_port_2)" />
+    <param name="motor_port_3" value="$(arg motor_port_3)" />
+    <param name="motor_port_4" value="$(arg motor_port_4)" />
+  </node>
+
+</launch>

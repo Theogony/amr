@@ -1,0 +1,6 @@
+<launch>
+  <node name="detect_board" pkg="board_detection" type="detection.py" respawn="false" output="screen">
+      <arg name="image_topic_name" default="/usb_cam/image_raw" />
+  </node>
+
+</launch>

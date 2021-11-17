@@ -1,0 +1,4 @@
+<launch>
+  <node name="motor_service_client" pkg="amr_control" type="example_control_client.py" respawn="false" output="screen">
+  </node>
+</launch>
