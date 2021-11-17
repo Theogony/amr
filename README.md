@@ -1,5 +1,14 @@
 [![Build badge](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/workflows/Industrial%20CI%20pipeline/badge.svg?branch=master&event=push)](https://github.com/UniversalRobots/Universal_Robots_ROS_Driver/actions)
 
+# onsemi industrial robotics 
+onsemi products like; image sensors, motor control, battery charging and more are used to create reference systems for our customers.  In turn these reference systems are put together in a Autonomous Mobile Robot (AMR). This repository contains the ROS packages to control the AMR
+
+
+
+
+
+
+
 # Universal_Robots_ROS_Driver
 Universal Robots have become a dominant supplier of lightweight, robotic manipulators for industry, as well as for scientific research and education. The Robot Operating System (ROS) has developed from a community-centered movement to a mature framework and quasi standard, providing a rich set of powerful tools for robot engineers and researchers, working in many different domains.
 
